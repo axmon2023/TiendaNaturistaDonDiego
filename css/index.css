@@ -1,0 +1,76 @@
+body {
+  margin: 10;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("../Imagenes/Fondo1.webp");
+}
+a {
+  text-decoration:none;
+  color: yellow;
+  font-size: 40%;
+  display: inline;
+  font-size: 0.7em;
+}
+ul > li {
+  list-style: none;
+}
+
+h1 {
+  color: yellow;
+}
+
+h1:hover {
+  transform: scale(1, -1);
+  translate: (-30px);
+  transition: 3s;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul :hover {
+  background-color: green;
+  color: yellow;
+  border-radius: 50%;
+}
+
+h4 {
+  color: yellow;
+}
+
+h4:hover {
+  transform: scale(-1, 1);
+  translate: (-30px);
+  transition: 3s;
+}
+
+#wasap:hover {
+  transform: scale(-1, 1);
+  translate: (-30px);
+  transition: 3s;
+}
+
+.bi-whatsapp {
+  color: greenyellow;
+}
+
+.bi-geo-alt {
+  color: orange;
+}
+
+.bi-zoom-out {
+  color: yellow;
+}
+
+.bi-envelope-at {
+  color: rgb(206, 200, 9);
+}
+
+.bi-images {
+  color: white;
+}
+
+.bi-people-fill {
+  color: chartreuse;
+}
